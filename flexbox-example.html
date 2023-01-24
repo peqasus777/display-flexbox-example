@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styletask1.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <title>Header</title>
+    <style>
+      .wrapper {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    <style>
+      body {
+        font-family: Roboto, Monospace;
+        margin: 0px;
+      }
+
+      main {
+        max-width: 992px;
+        min-width: 768px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+      }
+
+      .item {
+        width: 30%;
+        margin: 10px;
+      }
+
+      .item p {
+        height: 30px;
+      }
+
+      .item-image {
+        width: 100%;
+      }
+
+      h2 {
+        font-size: 12px;
+        font-weight: bold;
+      }
+
+      p {
+        font-size: 10px;
+      }
+
+      button {
+        background-color: #ba99e4;
+        border-width: 0px;
+        border-radius: 3px;
+        width: 100%;
+        height: 25px;
+        color: #333;
+      }
+
+      footer {
+        background-color: #eee;
+        color: #666;
+        padding: 5px 0px;
+        font-size: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+      footer p {
+        margin: 0px 0px 10px 0px;
+      }
+
+      .footer-container {
+        max-width: 992px;
+        min-width: 768px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+
+      footer p a {
+        vertical-align: middle;
+      }
+
+      .social {
+        width: 20px;
+      }
+
+      @media (max-width: 768px) {
+        header {
+          width: 90%;
+          min-width: 0;
+        }
+
+        .large-menu {
+          display: none;
+        }
+
+        .small-menu {
+          display: flex;
+          margin: 5px;
+        }
+
+        main {
+          width: 90%;
+          min-width: 0px;
+          flex-direction: column;
+        }
+
+        .item {
+          width: 256px;
+        }
+
+        .footer-container {
+          width: 90%;
+          min-width: 0px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <main>
+        <section class="item">
+          <img
+            class="item-image"
+            src="/uploads/2020/06/laptop-2557466_1280_0_1592131562.jpg"
+            alt=""
+          />
+          <h2>HTML</h2>
+          <p>The language for building web pages.</p>
+          <button>Learn HTML</button>
+        </section>
+        <section class="item">
+          <img
+            class="item-image"
+            src="/uploads/2020/06/business-1839876_1280_0_1592131562.jpg"
+            alt=""
+          />
+          <h2>CSS</h2>
+          <p>The language for styling web pages.</p>
+          <button>Learn CSS</button>
+        </section>
+        <section class="item">
+          <img
+            class="item-image"
+            src="/uploads/2020/06/web-design-2906159_1280_0_1592131562.jpg"
+            alt=""
+          />
+          <h2>JavaScript</h2>
+          <p>The language for programming web pages.</p>
+          <button>Learn JavaScript</button>
+        </section>
+      </main>
+      <footer>
+        <section class="footer-container">
+          <section>
+            <p>2017-2020</p>
+            <p>
+              If you have any questions or suggestions, please contact us
+              hello@algoritmika.org <br />
+              or call at +7 (495) 256-30-41
+            </p>
+          </section>
+
+          <section>
+            <a href="https://www.instagram.com/"
+              ><img
+                class="social"
+                src="/uploads/2020/06/brands-and-logotypes_0_1592126153.png"
+                alt=""
+            /></a>
+            <a href="https://vk.com"
+              ><img
+                class="social"
+                src="/uploads/2020/06/vk_0_1592126148.png"
+                alt=""
+            /></a>
+            <a href="https://www.facebook.com/"
+              ><img
+                class="social"
+                src="/uploads/2020/06/facebook_0_1592126152.png"
+                alt=""
+            /></a>
+          </section>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>
